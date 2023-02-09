@@ -1,0 +1,205 @@
+.ware_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ware_container .ware_info {
+  width: 1250px;
+  display: flex;
+}
+.ware_container .description {
+  width: 530px;
+}
+.ware_container .description .ware_name {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.ware_container .description .ware_cost {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 23px;
+}
+.ware_container .description .ware_colors {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+.ware_container .description .ware_colors .ware_color {
+  width: 21px;
+  height: 21px;
+  margin-right: 7.5px;
+  border: 0.3px solid lightgray;
+  border-radius: 50%;
+}
+.ware_container .description .ware_colors .ware_color.selected {
+  width: 30px;
+  height: 30px;
+}
+.ware_container .description .ware_color_name {
+  font-size: 14px;
+  color: #E0BEA2;
+  margin-bottom: 20px;
+}
+.ware_container .description .ware_size_selector {
+  display: flex;
+  border: 0.3px solid #2C2C2C;
+  font-family: "Segoe UI", Arial, sans-serif;
+  border-radius: 2px;
+  font-weight: 200;
+  font-size: 16px;
+  width: 100%;
+  height: 50px;
+  background: rgba(0, 0, 0, 0) url(../../../public/media/icons/arrow_down.png) no-repeat;
+  background-position-x: 97%;
+  background-position-y: 50%;
+}
+.ware_container .pictures_container {
+  display: flex;
+  width: 560px;
+  height: 540px;
+  margin-right: 50px;
+}
+.ware_container .pictures_container .small_pictures {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100%;
+  margin-right: 10px;
+}
+.ware_container .pictures_container .small_pictures .small_picture {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.ware_container .pictures_container .big_picture {
+  width: 450px;
+  height: 540px;
+}
+.ware_container .box {
+  margin-bottom: 20px;
+}
+.ware_container .box select {
+  color: #252525;
+  padding: 13px;
+  border: none;
+  font-size: 14px;
+  -webkit-appearance: button;
+  appearance: none;
+  outline: none;
+}
+.ware_container .box option {
+  padding: 30px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.ware_container .ware_buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.ware_container .ware_buttons .basket_button {
+  font-weight: 300;
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 255px;
+  height: 55px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: #E0BEA2;
+}
+.ware_container .ware_buttons .like_button {
+  color: #2C2C2C;
+  font-weight: 300;
+  font-size: 16px;
+  width: 255px;
+  height: 55px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 0.5px solid #2C2C2C;
+}
+.ware_container .ware_buttons .like_button img {
+  width: 15px;
+  height: 15px;
+  margin-right: 11px;
+}
+.ware_container .divider {
+  opacity: 50%;
+  width: 100%;
+  height: 0.3px;
+  background-color: #252525;
+  margin: 0;
+}
+.ware_container .ware_about {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.ware_container .ware_about .title {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.ware_container .ware_about .up_down {
+  width: 100%;
+  height: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ware_container .ware_composition {
+  width: 100%;
+  font-weight: 200;
+  font-size: 14px;
+  color: #252525;
+  margin-bottom: 10px;
+}
+
+.whole_image_container {
+  width: 1250px;
+  margin-bottom: 70px;
+}
+.whole_image_container .whole_image {
+  width: 755px;
+}
+.whole_image_container .whole_image .title {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.another_variants {
+  width: 1250px;
+  margin-bottom: 70px;
+}
+.another_variants .title {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.proposes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.story {
+  width: 100%;
+  display: flex;
+}
+.story div {
+  margin-right: 16.5px;
+}
+
+.link {
+  text-decoration: none;
+  color: #252525;
+}
+
+/*# sourceMappingURL=ware.module.css.map */

@@ -1,0 +1,140 @@
+.basket_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.basket {
+  width: 1250px;
+}
+.basket .title {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.basket_entity {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 110px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.ware_card {
+  width: 250px !important;
+  height: 110px !important;
+  display: flex !important;
+}
+.ware_card img {
+  width: 95px;
+  height: 100%;
+  margin-right: 10px;
+}
+.ware_card .ware_card_info {
+  width: 140px;
+  height: 100%;
+}
+.ware_card .ware_card_info .art {
+  font-size: 14px;
+  color: #E0BEA2;
+  margin-bottom: 29px;
+}
+.ware_card .ware_card_info .name {
+  font-size: 16px;
+}
+
+.ware_color {
+  width: 30px;
+  height: 30px;
+  border: 0.3px solid lightgray;
+  border-radius: 50%;
+}
+
+.ware_size_selector {
+  display: flex;
+  border: 0.3px solid darkgray;
+  font-family: "Segoe UI", Arial, sans-serif;
+  border-radius: 2px;
+  font-weight: 200;
+  font-size: 16px;
+  width: 98px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0) url(../../../public/media/icons/arrow_down.png) no-repeat;
+  background-position-x: 70%;
+  background-position-y: 55%;
+  color: #252525;
+  padding-left: 30px;
+  -webkit-appearance: button;
+  appearance: none;
+  outline: none;
+}
+
+.ware_cols_counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0.3px solid darkgray;
+  width: 98px;
+  height: 50px;
+  font-weight: 200;
+  font-size: 16px;
+  border-radius: 2px;
+  padding: 16px 20px 15px 20px;
+  -webkit-box-sizing: border-box;
+}
+.ware_cols_counter .image {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.ware_cols_counter .image img {
+  width: 10px;
+  height: 10px;
+  object-fit: contain;
+}
+.ware_cols_counter .ware_count {
+  font-size: 16px;
+}
+
+.ware_cost_delete {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.ware_cost_delete img {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
+.ware_cost {
+  font-weight: 700;
+  font-size: 16px;
+  margin-right: 31px;
+  margin-left: 10px;
+}
+
+.divider {
+  opacity: 50%;
+  width: 100%;
+  height: 0.3px;
+  background-color: #252525;
+  margin: 0;
+}
+
+.basket_sum_cost {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #252525;
+}
+
+/*# sourceMappingURL=basket.module.css.map */

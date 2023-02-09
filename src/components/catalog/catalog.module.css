@@ -1,0 +1,123 @@
+.catalog {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.catalog .catalog_container {
+  width: 1250px;
+  display: flex;
+}
+
+.path_container {
+  width: 1250px;
+}
+.path_container .path {
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+.path_container .path * {
+  margin-right: 15px;
+}
+.path_container .path img {
+  width: 10px;
+  height: 10px;
+  object-fit: fill;
+}
+
+.catalog_categories {
+  width: 180px;
+}
+.catalog_categories .category_header {
+  font-size: 20px;
+}
+.catalog_categories .category {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.filters {
+  display: flex;
+  height: 26.4px;
+}
+.filters .filter {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+.filters .filter img, .filters .filter div {
+  margin-right: 9px;
+  margin-left: 9px;
+}
+
+.link {
+  text-decoration: none;
+  color: #252525;
+}
+
+.shop {
+  width: 1070px;
+}
+.shop .wares {
+  display: flex;
+  flex-direction: column;
+}
+.shop .wares .wares_block {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.ware_card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+}
+.ware_card .card_image {
+  width: 100%;
+  object-fit: cover;
+}
+.ware_card .ware_name {
+  font-size: 18px;
+  margin-top: 15px;
+}
+.ware_card .ware_cost {
+  margin-top: 5px;
+  font-weight: 700;
+}
+.ware_card .ware_sizes {
+  margin-top: 5px;
+  color: rgba(37, 37, 37, 0.5);
+}
+.ware_card .ware_colors {
+  margin-top: 5px;
+  display: flex;
+}
+.ware_card .ware_colors .color {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+  border-radius: 50%;
+  border: 0.3px solid #e3e3e3;
+}
+.ware_card .like_container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  background: #E0BEA2;
+  border-radius: 0px 0px 0px 20px;
+}
+.ware_card .like_img {
+  width: 15px;
+  height: 14px;
+  object-fit: fill;
+}
+
+/*# sourceMappingURL=catalog.module.css.map */
