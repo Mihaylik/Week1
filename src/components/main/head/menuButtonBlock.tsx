@@ -4,12 +4,12 @@ import s from '../main.module.scss'
 const MenuButtonBlock = () =>  {
     const iconChange = (event: React.MouseEvent) => {
         let target = event.target as HTMLElement
-        let navs = document.querySelector("." + s.navigator)!
-        let menu_navs =  document.querySelector("." + s.menu_navigator)!
+        let navs = document.getElementsByClassName(s.navigator)![0]
+        let menu_navs =  document.getElementsByClassName( s.menu_navigator)![0]
         let lang = document.getElementById("lang")!
         let curr = document.getElementById("curr")!
-        let title = document.querySelector("." + s.title)!
-        let menu = document.querySelector("." + s.menu)!
+        let title = document.getElementsByClassName(s.title)![0]
+        let menu = document.getElementsByClassName(s.menu)![0]
         if(!target.classList.contains(s.menu_button))
             target = target.parentElement!
         target.classList.toggle(s.close)
