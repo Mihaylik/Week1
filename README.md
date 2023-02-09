@@ -1,46 +1,34 @@
-# Getting Started with Create React App
+# Реалізовано верстку, завданння з JS, і додаткові функції в JS, а саме
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- для кожного товару своя сторінка, за допомогою передачі обєкту товару в компонент сторінки товару **(React)**
 
-## Available Scripts
+- реалізовано селектор вибору розміру товару
 
-In the project directory, you can run:
+- при прокручуванні на головні сторінці, хедер стає темніше
 
-### `npm start`
+- зміна хедеру залежно від сторінки за допомогою JS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- реалізована історія перегляду товарів **(React)**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- реалізована механіка додавання товару в корзину, при цьому зберігається розмір який був вибраний, якщо додати однаковий товар з таким самим розміром ще раз, то кількість відповідного товару в корзині збільшиться **(React)**
 
-### `npm test`
+- реалізована зміна розміру товару в корзині **(React)**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- реалізована зміна кількості товару в корзині **(React)**
 
-### `npm run build`
+- реалізована зміна ціни товару залежно від кількості **(React)**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- реалізовано обрахунок ціни товарів в корзині **(React)**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- реалізовано видалення товарів з корзини **(React)**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- при додаванні товару в корзині та видаленні товару екранізуються відповідні сповіщення  **(React)**
 
-### `npm run eject`
+- пери переході на іншу сторінку виконується плавне прокручування сторінки наверх
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- перехід між сторінками реалізований підходом SPA **(React)**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Роботу виконано з використанням React і TypeScript
+## Перед запуском потрібно прописати команду ```npm i``` для встановлення пакетів
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Для запуску потрібно виконати команду ```npm start```
